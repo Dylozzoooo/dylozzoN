@@ -1,33 +1,30 @@
 {
-  "id": "com.dylozzo.personalstreams",
+  "id": "com.dylozzo.personalstreams.v1",
   "name": "Dylozzo Personal Streams",
-  "version": "1.0.0",
-  "description": "Plugin personalizzato con StreamingCommunity, AnimeUnity, AnimeWorld e AltaDefinizione",
-  "manifest_version": 1,
-  "resources": ["catalog", "meta", "stream"],
+  "description": "StreamingCommunityZ, AnimeUnity, AnimeWorld, AltaDefinizione",
+  "version": "1.0.1",
+  "icon": "https://github.com/Dylozzoooo/dylozzoN/raw/main/icon.png",
+  "resources": ["stream"],
   "types": ["movie", "series"],
   "behaviorHints": {
     "proxy": true,
-    "configurable": false,
-    "configurationRequired": false
+    "configurable": false
   },
-  "catalogs": [],
-  "idPrefixes": ["tt", "imdb"],
-  "provider_urls": [
+  "providers": [
     {
-      "name": "StreamingCommunityZ",
+      "name": "streamingcommunityz",
       "url": "https://streamingcommunityz.gives"
     },
     {
-      "name": "AnimeUnity",
+      "name": "animeunity",
       "url": "https://www.animeunity.so"
     },
     {
-      "name": "AnimeWorld",
+      "name": "animeworld",
       "url": "https://www.animeworld.ac"
     },
     {
-      "name": "AltaDefinizione",
+      "name": "altadefinizione",
       "url": "https://altadefinizione.autos"
     }
   ]
